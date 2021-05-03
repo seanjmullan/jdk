@@ -41,6 +41,7 @@ package java.security;
  * @since 1.2
  */
 
+@Deprecated(since="17", forRemoval=true)
 public class AccessControlException extends SecurityException {
 
     @java.io.Serial

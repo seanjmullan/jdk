@@ -354,6 +354,7 @@ public final class System {
      * @see SecurityManager#checkPermission
      * @see java.lang.RuntimePermission
      */
+    @Deprecated(since="17", forRemoval=true)
     public static void setSecurityManager(SecurityManager sm) {
         if (allowSecurityManager()) {
             if (security == null) {
@@ -420,6 +421,7 @@ public final class System {
      *          otherwise, {@code null} is returned.
      * @see     #setSecurityManager
      */
+    @Deprecated(since="17", forRemoval=true)
     public static SecurityManager getSecurityManager() {
         if (allowSecurityManager()) {
             return security;

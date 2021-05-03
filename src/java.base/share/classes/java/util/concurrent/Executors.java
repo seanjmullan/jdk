@@ -390,6 +390,7 @@ public class Executors {
      * context does not have permission to both get and set context
      * class loader
      */
+    @Deprecated(since="17", forRemoval=true)
     public static ThreadFactory privilegedThreadFactory() {
         return new PrivilegedThreadFactory();
     }
@@ -467,6 +468,7 @@ public class Executors {
      * @return a callable object
      * @throws NullPointerException if callable null
      */
+    @Deprecated(since="17", forRemoval=true)
     public static <T> Callable<T> privilegedCallable(Callable<T> callable) {
         if (callable == null)
             throw new NullPointerException();
@@ -493,6 +495,7 @@ public class Executors {
      * context does not have permission to both set and get context
      * class loader
      */
+    @Deprecated(since="17", forRemoval=true)
     public static <T> Callable<T> privilegedCallableUsingCurrentClassLoader(Callable<T> callable) {
         if (callable == null)
             throw new NullPointerException();

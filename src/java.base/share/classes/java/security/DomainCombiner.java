@@ -78,6 +78,7 @@ package java.security;
  * @see AccessControlContext
  * @since 1.3
  */
+@Deprecated(since="17", forRemoval=true)
 public interface DomainCombiner {
 
     /**

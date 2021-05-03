@@ -273,6 +273,7 @@ import jdk.internal.vm.annotation.ReservedStackAccess;
  * @since 1.2
  */
 
+@Deprecated(since="17", forRemoval=true)
 public final class AccessController {
 
     /**

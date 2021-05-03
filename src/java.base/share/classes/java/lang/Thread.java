@@ -1425,6 +1425,7 @@ public class Thread implements Runnable {
      *          access this thread.
      * @see        SecurityManager#checkAccess(Thread)
      */
+    @Deprecated(since="17", forRemoval=true)
     public final void checkAccess() {
         SecurityManager security = System.getSecurityManager();
         if (security != null) {

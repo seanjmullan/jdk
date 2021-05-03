@@ -77,6 +77,7 @@ import sun.security.util.SecurityConstants;
  * @since 1.2
  */
 
+@Deprecated(since="17", forRemoval=true)
 public final class AccessControlContext {
 
     private ProtectionDomain[] context;

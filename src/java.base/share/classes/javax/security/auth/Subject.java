@@ -285,6 +285,7 @@ public final class Subject implements java.io.Serializable {
      * @throws NullPointerException if the provided
      *          {@code AccessControlContext} is {@code null}.
      */
+    @Deprecated(since="17", forRemoval=true)
     public static Subject getSubject(final AccessControlContext acc) {
 
         java.lang.SecurityManager sm = System.getSecurityManager();
@@ -464,6 +465,7 @@ public final class Subject implements java.io.Serializable {
      *                  AuthPermission("doAsPrivileged")} permission to invoke
      *                  this method.
      */
+    @Deprecated(since="17", forRemoval=true)
     public static <T> T doAsPrivileged(final Subject subject,
                         final java.security.PrivilegedAction<T> action,
                         final java.security.AccessControlContext acc) {
@@ -530,6 +532,7 @@ public final class Subject implements java.io.Serializable {
      *                  AuthPermission("doAsPrivileged")} permission to invoke
      *                  this method.
      */
+    @Deprecated(since="17", forRemoval=true)
     public static <T> T doAsPrivileged(final Subject subject,
                         final java.security.PrivilegedExceptionAction<T> action,
                         final java.security.AccessControlContext acc)

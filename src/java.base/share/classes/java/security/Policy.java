@@ -85,6 +85,7 @@ import sun.security.util.SecurityConstants;
  * @see java.security.Security security properties
  */
 
+@Deprecated(since="17", forRemoval=true)
 public abstract class Policy {
 
     /**
@@ -811,6 +812,7 @@ public abstract class Policy {
      *
      * @since 1.6
      */
+    @Deprecated(since="17", forRemoval=true)
     public static interface Parameters { }
 
     /**

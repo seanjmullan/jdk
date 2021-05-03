@@ -42,6 +42,7 @@ package java.security;
  * @since 1.6
  */
 
+@Deprecated(since="17", forRemoval=true)
 public abstract class PolicySpi {
 
     /**

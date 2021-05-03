@@ -40,6 +40,7 @@ import java.lang.ref.WeakReference;
  *
  * @since 1.4
  */
+@Deprecated(since="17", forRemoval=true)
 public class SubjectDomainCombiner implements java.security.DomainCombiner {
 
     private Subject subject;

@@ -321,6 +321,7 @@ public class ThreadGroup implements Thread.UncaughtExceptionHandler {
      * @see        java.lang.SecurityManager#checkAccess(java.lang.ThreadGroup)
      * @since      1.0
      */
+    @Deprecated(since="17", forRemoval=true)
     public final void checkAccess() {
         SecurityManager security = System.getSecurityManager();
         if (security != null) {

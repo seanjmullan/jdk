@@ -314,6 +314,7 @@ import sun.security.util.SecurityConstants;
  *
  * @since   1.0
  */
+@Deprecated(since="17", forRemoval=true)
 public class SecurityManager {
 
     /*

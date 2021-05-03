@@ -55,7 +55,7 @@ import java.security.*;
  * @since 1.1
  * @deprecated Use {@link SecurityManager} instead.
  */
-@Deprecated
+@Deprecated(forRemoval = true)
 public class RMISecurityManager extends SecurityManager {
 
     /**
