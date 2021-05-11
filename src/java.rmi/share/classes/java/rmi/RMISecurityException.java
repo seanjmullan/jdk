@@ -36,7 +36,7 @@ package java.rmi;
  * <code>RMISecurityManager</code> no longer throws this subclass of
  * <code>java.lang.SecurityException</code>.
  */
-@Deprecated(forRemoval = true)
+@Deprecated
 public class RMISecurityException extends java.lang.SecurityException {
 
     /* indicate compatibility with JDK 1.1.x version of class */
