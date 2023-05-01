@@ -1368,6 +1368,8 @@ public abstract class Provider extends Properties {
      *      java.lang.SecurityManager#checkSecurityAccess} method denies
      *      access to set property values.
      * @throws NullPointerException if s is {@code null}
+     * @throws UnsupportedOperationException if the {@code putService}
+     *         operation is not supported by this provider
      *
      * @since 1.5
      */
@@ -1490,6 +1492,8 @@ public abstract class Provider extends Properties {
      *          java.lang.SecurityManager#checkSecurityAccess} method denies
      *          access to remove this provider's properties.
      * @throws NullPointerException if s is {@code null}
+     * @throws UnsupportedOperationException if the {@code removeService}
+     *         operation is not supported by this provider
      *
      * @since 1.5
      */
